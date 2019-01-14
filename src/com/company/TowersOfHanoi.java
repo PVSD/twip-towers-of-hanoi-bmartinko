@@ -14,7 +14,7 @@ public class TowersOfHanoi {
 
         discNumber = a;
         board = new int[a][2];
-        
+
         for(int b = 0; b < discNumber; b++){
             board[a][0] = a;
         }
